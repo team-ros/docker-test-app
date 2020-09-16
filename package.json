@@ -1,0 +1,29 @@
+{
+  "name": "docker-test-app",
+  "version": "1.0.0",
+  "description": "An expressjs test application for Docker and Kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && npm start",
+    "start": "node ./lib/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-ros/docker-test-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-ros/docker-test-app/issues"
+  },
+  "homepage": "https://github.com/team-ros/docker-test-app#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
